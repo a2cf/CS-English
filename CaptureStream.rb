@@ -203,7 +203,7 @@ $flv_service_prefix = 'mp4:flv/gogaku/streaming/mp4'
 #--------------------------------------------------------------------------------
 
 # 保存フォルダ名
-$out_folder_hash = Hash.new( '%r%p%k' )
+$out_folder_hash = Hash.new( '%r%p' )
 
 # 保存ファイル名
 $out_file_hash = Hash.new( '%k_%Y_%M_%D' )
